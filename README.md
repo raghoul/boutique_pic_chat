@@ -1,8 +1,6 @@
 
 
-## Version en ligne :
 
-https://cat-store-thp.herokuapp.com/
 
 
 
