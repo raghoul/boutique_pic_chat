@@ -69,6 +69,13 @@ gem 'table_print'
 gem 'devise'
 gem 'dotenv-rails'
 
-group :production do
-  gem 'pg' , '0.20.0'
+gem 'postgresql'
+
+group :development, :test do
+  gem 'sqlite3'
 end
+
+group :production do
+  gem 'pg', '>= 0.18'
+end
+
