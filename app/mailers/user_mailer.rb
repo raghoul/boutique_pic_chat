@@ -1,12 +1,12 @@
 class UserMailer < ApplicationMailer
-  default from: 'catstore@yopmail.com'
+  default from: 'boutique_pic_chat@yopmail.com'
  
   def welcome_email(user)
     @user = user
 
-    @url  = 'https://cat-store-thp.herokuapp.com/'
+    @url  = 'https://boutique_pic_chat-thp.herokuapp.com/'
 
-    mail(to: @user.email, subject: 'Bienvenue chez CatStore !')
+    mail(to: @user.email, subject: 'Bienvenue chez Boutique Pic Chat !')
   end
 
   def order_email(order)
@@ -16,9 +16,9 @@ class UserMailer < ApplicationMailer
 
     @user = User.find(order.user_id)
 
-    @url  = 'https://cat-store-thp.herokuapp.com/'
+    @url  = 'https://boutique_pic_chat-thp.herokuapp.com/'
 
-    mail(to: @user.email, subject: 'Vos achats chez CatStore !')
+    mail(to: @user.email, subject: 'Vos achats chez Boutique Pic Chat !')
   end
 
   

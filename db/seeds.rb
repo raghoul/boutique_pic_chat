@@ -233,7 +233,7 @@ Item.create(
 User.create(
   first_name: "Admin",
   last_name: "is Traitor",
-  email: "admincatstore@yopmail.com",
+  email: "adminboutiquepicchat@yopmail.com",
   password: "123456",
   is_admin: true
 )

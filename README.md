@@ -2,7 +2,7 @@
 
 ## Version en ligne :
 
-https://cat-store-thp.herokuapp.com/
+
 
 
 
@@ -24,7 +24,7 @@ http://localhost:3000/
 
 ## Connexion au dashboard Admin 
 
-> Mail : admincatstore@yopmail.com
+> Mail : adminboutiquepicchat@yopmail.com
 >
 > Mot de passe : 123456
 
