@@ -68,6 +68,7 @@ gem 'faker', :git => 'https://github.com/ZeddBox/faker_fr.git', :branch => 'mast
 gem 'table_print'
 gem 'devise'
 gem 'dotenv-rails'
+
 gem 'postgresql'
 
 group :development, :test do
@@ -77,3 +78,4 @@ end
 group :production do
   gem 'pg', '>= 0.18'
 end
+
